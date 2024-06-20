@@ -1,0 +1,153 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
+
+
+/*propiedades en venta*/
+.ventas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    margin: 10px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+ 
+.article casa {
+    align-items: center;
+    
+}
+
+.casa {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ventas img {
+    width: 300px;
+    padding-top: 5px;
+}
+
+.propiedadesVentas .smoke {
+    display: none;
+}
+
+.propiedadesVentas .smoke .mostrar {
+    display: block;
+}
+
+
+.imageWrapper {
+    width: auto; 
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*propiedades en alquiler*/
+
+.alquileres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    margin: 10px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.article arriendo {
+    align-items: center;
+    
+}
+
+.arriendo {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.alquileres img {
+    width: 300px;
+    padding-top: 5px;
+}
+
+.homeAlquiler {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    margin: 10px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.homeAlquiler img {
+    width: 300px;
+}
+
+#masalquiler {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.homeVenta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    margin: 10px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.homeVenta img {
+    width: 300px;
+}
+
+#masventa {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.encabezado {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.message-accepted {
+    color: green;
+}
+
+.message-refused {
+    color: red;
+}
+
+.maspropiedades {
+    border: solid 1px gray;
+    text-decoration: none;
+    color: black;
+    background: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
