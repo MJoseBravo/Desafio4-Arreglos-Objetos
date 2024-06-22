@@ -1,8 +1,6 @@
 
-
 const venta = document.querySelector("#venta")
 let sale = ""
-
 
 
 for(let casa of propiedadesVentas){

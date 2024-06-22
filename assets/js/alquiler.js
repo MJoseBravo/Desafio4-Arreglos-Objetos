@@ -1,5 +1,4 @@
 
-
 const alquiler = document.querySelector("#alquiler")
 let rent = ""
 

@@ -79,7 +79,8 @@ ubicacion: '<i class="fa-solid fa-location-dot"></i> 789 Mountain Road, Summit P
 habitaciones: '<i class="fa-solid fa-bed"></i> 2 habitaciones',
 baños: '<i class="fa-solid fa-toilet"></i> 1 baño',
 costo: '$1.200',
-smoke: 'Permitido fumar',pets: 'Mascotas permitidas'
+smoke: true,
+pets: true
 },
 {titulo: 'Casa en ambiente tranquilo',
 descripcion: 'Esta amplia casa esta ubicada en un sector residencial y tranquilo',
@@ -88,8 +89,8 @@ ubicacion: '<i class="fa-solid fa-location-dot"></i> 567 Skyline Avenue, Skyview
 habitaciones: '<i class="fa-solid fa-bed"></i> 3 habitaciones',
 baños: '<i class="fa-solid fa-toilet"></i> 3 baños',
 costo: '$4.500',
-smoke: 'No se permite fumar',
-pets: 'Mascotas permitidas'
+smoke: false,
+pets: false
 },
 {titulo: ' Lujosa casa en zona exclusiva',
 descripcion: 'Esta propiedad está ubicado en una exclusiva zona residencial',
@@ -98,8 +99,8 @@ ubicacion: '<i class="fa-solid fa-location-dot"></i> 123 Luxury Lane, Prestige S
 habitaciones: '<i class="fa-solid fa-bed"></i> 4 habitaciones',
 baños: '<i class="fa-solid fa-toilet"></i> 4 baños',
 costo: '$5.000',
-smoke: 'No permite fumar',
-pets: 'No se permiten mascotas'
+smoke: false,
+pets: false
 },
 {titulo: 'Moderna casa en barrio residencial',
 descripcion: 'Casa ubicada en una zona centrica, con acceso a diversos servicios',
@@ -108,8 +109,8 @@ ubicacion: '<i class="fa-solid fa-location-dot"></i> 789 Mountain Road, Summit P
 habitaciones: '<i class="fa-solid fa-bed"></i> 2 habitaciones',
 baños: '<i class="fa-solid fa-toilet"></i> 1 baño',
 costo: '$3.000',
-smoke: 'Permitido fumar',
-pets: 'Mascotas permitidas'
+smoke: true,
+pets: true
 },
 {titulo: 'Apartamento en centro civico',
 descripcion: 'Propiedad a a pocos pasos del centro de la cuidad, con acceso a multiples servicios',
@@ -118,6 +119,6 @@ ubicacion: '<i class="fa-solid fa-location-dot"></i> 567 Skyline Avenue, Skyview
 habitaciones: '<i class="fa-solid fa-bed"></i> 3 habitaciones',
 baños: '<i class="fa-solid fa-toilet"></i> 3 baños',
 costo: '$4.500',
-smoke: 'No se permite fumar',
-pets: 'Mascotas permitidas'
+smoke: false,
+pets: true
 }]

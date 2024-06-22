@@ -5,8 +5,6 @@ const homeAlquiler = document.querySelector("#homeAlquiler")
 let countVentas = 0
 let sale = ""
 
-
-
 for(let casa of propiedadesVentas){
     if (countVentas < 3) {
         countVentas++
