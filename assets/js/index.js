@@ -13,15 +13,15 @@ for(let casa of propiedadesVentas){
     }
     let mascotas = ""
     if (casa.pets) {
-       mascotas = "<p class='message-accepted'>Se permiten mascotas</p>"
+       mascotas = "<p class='message-accepted'><i class='fa-solid fa-paw'></i> Se permiten mascotas</p>"
     } else {
-       mascotas = "<p class='message-refused'>No se permiten mascotas</p>"
+       mascotas = "<p class='message-refused'><i class='fa-solid fa-ban'></i> No se permiten mascotas</p>"
     }
     let fumar = ""
     if (casa.smoke) {
-       fumar = "<p class='message-accepted'>Se permite fumar</p>"
+       fumar = "<p class='message-accepted'><i class='fa-solid fa-smoking'></i> Se permite fumar</p>"
     } else {
-       fumar = "<p class='message-refused'>No se permite fumar</p>"
+       fumar = "<p class='message-refused'><i class='fa-solid fa-ban'></i> No se permite fumar</p>"
     }
     sale+= /*html*/  
     `<article class="casa">
@@ -50,15 +50,15 @@ for(let arriendo of propiedadesAlquiler){
     }
     let mascotas = ""
    if (arriendo.pets) {
-      mascotas = "<p class='message-accepted'>Se permiten mascotas</p>"
+      mascotas = "<p class='message-accepted'><i class='fa-solid fa-paw'></i> Se permiten mascotas</p>"
    } else {
-      mascotas = "<p class='message-refused'>No se permiten mascotas</p>"
+      mascotas = "<p class='message-refused'><i class='fa-solid fa-ban'></i> No se permiten mascotas</p>"
    }
    let fumar = ""
    if (arriendo.smoke) {
-      fumar = "<p class='message-accepted'>Se permite fumar</p>"
+      fumar = "<p class='message-accepted'><i class='fa-solid fa-smoking'></i> Se permite fumar</p>"
    } else {
-      fumar = "<p class='message-refused'>No se permite fumar</p>"
+      fumar = "<p class='message-refused'><i class='fa-solid fa-ban'></i> No se permite fumar</p>"
    }
     rent+= /*html*/  
     `<article class="arriendo">
